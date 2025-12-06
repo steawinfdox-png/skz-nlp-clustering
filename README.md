@@ -27,7 +27,7 @@ Data Visualization
 # Pipeline Overview
 
 1. Scrape Song Metadata & Lyrics
-- Pull complete Stray Kids discography using the Genius API
+- Pull complete music artist discography using the Genius API
 - Store song titles, release dates, and full lyrics for analysis
 
 2. Preprocess Lyrics
