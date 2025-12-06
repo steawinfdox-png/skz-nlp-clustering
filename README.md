@@ -1,2 +1,1 @@
-# JVKE Song Lyrics NLP and VADER Analysis
-Sentiment analysis of JVKE (pop music artist) songs from 2022-2025
+# Unsupervised Emotional Clustering and Visualization of Stray Kids' Discography
