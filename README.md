@@ -122,3 +122,8 @@ Attached are several visualizations that help interpret the emotional structure 
 (traditional pre-clustering pos-neg-neu classifications)
 <img width="597" height="526" alt="Pie" src="https://github.com/user-attachments/assets/7ad6047a-cb4b-4d07-b9a5-f09cd6096535" />
 
+# Journal
+I initially attempted to use an OpenAI-hosted LLM to auto-generate cluster names, but I ran out of free credits and my requests greatly exceeded the hourly limit, leading to various, prolonged errors in my code. After several attempts to remedy the issue, I instead opted to use the simpler-to-integrate Groq-hosted LLM.
+
+# Contact Me!
+If you've got any suggestions or recommendations, feel free to email me at steawinfdox@gmail.com!
