@@ -105,6 +105,19 @@ Data Visualization
 # Visualizations
 Attached are several visualizations that help interpret the emotional structure and trends of Stray Kids' 7-year discography
 
-1. Color-coded 2D PCA Cluster Map of TF-IDF Vectors
+1. [Color-coded 2D PCA Cluster Map of TF-IDF Vectors]
 (visualizes how songs associate together based on lyrical similarity and shows clear separation between emotional themes)
 <img width="1193" height="862" alt="Scatterplot" src="https://github.com/user-attachments/assets/fcd004e6-48a1-4f49-aed0-7c13122a716b" />
+
+2. [Emotional Timeline]
+(line-graph visualization highlighting how emotional cluster themes rise and fall in song frequency over Stray Kids' 7-year career)
+<img width="1131" height="679" alt="Timeline" src="https://github.com/user-attachments/assets/bc318f10-6e62-4542-a824-54e7041873e8" />
+
+3. [Theme Frequency Chart]
+(shows actual number-based freqency of all clusters from entire discography)
+<img width="1304" height="630" alt="Screenshot (189)" src="https://github.com/user-attachments/assets/7bc1bb72-526e-4e48-831d-5f9048eaa701" />
+
+5. [VADER Sentiment Analysis]
+(traditional pre-clustering pos-neg-neu classifications)
+<img width="597" height="526" alt="Pie" src="https://github.com/user-attachments/assets/7ad6047a-cb4b-4d07-b9a5-f09cd6096535" />
+
