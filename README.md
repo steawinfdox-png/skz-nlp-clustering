@@ -65,20 +65,6 @@ Data Visualization
 - Temporal Analysis showing how Stray Kids’ lyrical emotions evolved across their 7-year career.
 - Clear Visualizations including sentiment trends, cluster timelines, and distribution plots.
 
-# Installation and Setup
-1. Clone repository
-- git clone https://github.com/steawinfdox-png/skz-nlp-clustering.git
-- cd skz-nlp-clustering
-2. Create virtual env.
-- python -m venv venv
-- source ven/bin/activate (macOS/Linux)
-- venv\Scripts\activate (Windows)
-3. Install dependencies
-- pip install -r requirements.txt
-4. Set up environmental variables
-- GROQ_API_KEY
-- GENIUS_API_KEY
-
 # Customization Options
 1. Open src/scraping.py
 2. Change "artist_name" to your preferred music artist
