@@ -1,7 +1,7 @@
 # Unsupervised Emotional Clustering and Visualization of Stray Kids' Discography
 Cluster Beats is an end-to-end NLP pipeline that was used to analyze Stray Kids' entire 7-year Korean discography (scraped from Genius API) by clustering Korean/English lyrics into emotional themes using TF-IDF vectorization and unsupervised learning through K-Means. This project auto-generates interpretable cluster labels using a Groq-hosted LLM, builds a emotional timeline over the group's career from 2018-2025, and visualizes thematic trends and patterns using Matplotlib and Seaborn. Prior to clustering, I used VADER for sentiment analysis to provide baseline polarity scores scores for each song, allowing comparison between traditional sentiment scoring and unsupervised clustering. 
 
-**Cluster Beats can also be used to analyze any music artist's emotional trends, making it customizable and accessible to all music lovers (programming experience not required!**
+**Cluster Beats can also be used to analyze any music artist's emotional trends, making it customizable and accessible to all music lovers (programming experience not required!)**
 
 # Tech Stack
 Languages + Tools
