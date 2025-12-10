@@ -67,7 +67,7 @@ Data Visualization
 - Temporal Analysis showing how Stray Kids’ lyrical emotions evolved across their 7-year career.
 - Clear Visualizations including sentiment trends, cluster timelines, and distribution plots.
 
-# Customization Options
+# How to Use Cluster Beats
 1. Open src/scraping.py
 2. Change "artist_name" to your preferred music artist
 3. Launch JupyterLab
