@@ -141,3 +141,8 @@ I initially attempted to use an OpenAI-hosted LLM to auto-generate cluster names
 
 # Contact Me!
 If you've got any suggestions or recommendations, feel free to email me at steawinfdox@gmail.com!
+
+# Resources Used
+- JupyterLab
+- Python
+- OpenAI
