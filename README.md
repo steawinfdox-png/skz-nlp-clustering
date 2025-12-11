@@ -12,29 +12,15 @@ Cluster Beats is an end-to-end NLP pipeline that analyzes any and all music arti
 For demonstration, I've used Cluster Beats to analyze the K-Pop boyband, Stray Kids' entire discography from 2018-2025, to provide interested users a clear example how Cluster Beats works to analyze your favorite artist. (Additional demos are in the notebooks/ file)
 
 **Cluster Beats is completely customizable and accessible to all music lovers (programming experience not required!)**
-
-# Tech Stack
-Languages + Tools
-- Python (data analysis, visualization, NLP, clustering)
-- JupyterLab (interactive dev.)
-  
-Data Extraction
-- Genius API (lyric scraping, song title and release date extraction)
-- Requests (API communication)
-  
-Natural Language Processing
-- NLTK (song tokenization)
-- scikit-learn (TF-IDF vectorization, K-Means unsupervised clustering)
-- VADER (sentiment analysis via polarity scoring)
-  
-LLM's
-- Groq API (automated cluster naming)
-- Llama-3.3-70B (label generation)
-  
-Data Visualization
-- Matplotlib (Emotional timeline)
-- Seaborn (Trend visuals)
-- Plotly (2D PCA cluster distribution)
+ 
+# How to Use Cluster Beats
+1. Install dependencies
+   a. pip install -r requirements.txt
+3. Open src/FULL_PIPELINE.py
+4. Change "artist_name" to your preferred music artist, as well as customize other variables (note: you need to get tokens for Genius API and Groq API)
+5. Run pipeline in JupyterLab
+   a. File --> New --> Terminal
+   b. Enter and run "python main.py"
 
 # Pipeline Overview
 
@@ -67,23 +53,30 @@ Data Visualization
 - Projected high-dimensional vectors into 2D (t-SNE) for visual mapping
 - Created cluster frequency charts and an emotional timeline across the 7-year discography using Matplotlib, Plotly, and Seaborn
 
-# Key Features
-- Full Discography Scraper using the Genius API to automatically download all lyrics and metadata.
-- End-to-end NLP Pipeline including preprocessing, sentiment scoring, vectorization, clustering, and labeling.
-- Hybrid Emotion Analysis combining traditional sentiment (VADER) with unsupervised clustering (TF-IDF + K-Means).
-- LLM-Generated Cluster Names powered by Groq’s LLaMA 3.3–70B for interpretable emotional categories.
-- Temporal Analysis showing how Stray Kids’ lyrical emotions evolved across their 7-year career.
-- Clear Visualizations including sentiment trends, cluster timelines, and distribution plots.
 
-# How to Use Cluster Beats
-1. Install dependencies
-   a. pip install -r requirements.txt
-3. Open src/FULL_PIPELINE.py
-4. Change "artist_name" to your preferred music artist, as well as customize other variables (note: you need to get tokens for Genius API and Groq API)
-5. Run pipeline in JupyterLab
-   a. File --> New --> Terminal
-   b. Enter and run "python main.py"
-
+# Tech Stack
+Languages + Tools
+- Python (data analysis, visualization, NLP, clustering)
+- JupyterLab (interactive dev.)
+  
+Data Extraction
+- Genius API (lyric scraping, song title and release date extraction)
+- Requests (API communication)
+  
+Natural Language Processing
+- NLTK (song tokenization)
+- scikit-learn (TF-IDF vectorization, K-Means unsupervised clustering)
+- VADER (sentiment analysis via polarity scoring)
+  
+LLM's
+- Groq API (automated cluster naming)
+- Llama-3.3-70B (label generation)
+  
+Data Visualization
+- Matplotlib (Emotional timeline)
+- Seaborn (Trend visuals)
+- Plotly (2D PCA cluster distribution)
+  
 # Requirements
 - pandas
 - numpy
@@ -95,6 +88,14 @@ Data Visualization
 - requests
 - groq
 
+# Key Features
+- Full Discography Scraper using the Genius API to automatically download all lyrics and metadata.
+- End-to-end NLP Pipeline including preprocessing, sentiment scoring, vectorization, clustering, and labeling.
+- Hybrid Emotion Analysis combining traditional sentiment (VADER) with unsupervised clustering (TF-IDF + K-Means).
+- LLM-Generated Cluster Names powered by Groq’s LLaMA 3.3–70B for interpretable emotional categories.
+- Temporal Analysis showing how Stray Kids’ lyrical emotions evolved across their 7-year career.
+- Clear Visualizations including sentiment trends, cluster timelines, and distribution plots.
+  
 # Results
 1. Emotional Clusters
 - The K-Means model (k=5) produced clusters that were semantically consistent when inspected qualitatively
