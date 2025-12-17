@@ -2,7 +2,9 @@
   <img width="379" height="300" alt="Screenshot_2025-12-10_12 14 22_PM-removebg-preview" src="https://github.com/user-attachments/assets/fa7c03a4-15ca-4212-a3f2-4fd7c7f3de8d" />
 </div>
 
-**Customizable end-to-end NLP pipeline for song analysis**
+<div align = "center">
+  **Customizable end-to-end NLP pipeline for song analysis**
+</div>
 
 # 🎧 Unsupervised Emotional Clustering and Three-Tier Visualization of Music Artists' Discography
 🧠 Cluster Beats is an end-to-end NLP pipeline that analyzes any and all music artists' discographies (scraped from Genius API) by clustering lyrics from all of their songs into emotional themes using TF-IDF vectorization and unsupervised learning through K-Means. Next, Cluster Beats auto-generates interpretable labels for each discography cluster using a Groq-hosted LLM, builds a emotional timeline over the artist's entire career (exact number of years can be changed), and visualizes thematic trends and patterns using Matplotlib, Plotly, and Seaborn. In addition to clustering, Cluster Beats employs the use of VADER sentiment analysis to provide baseline polarity scores for each song, allowing comparison between more traditional sentiment scoring and unsupervised learning.
