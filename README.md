@@ -1,4 +1,5 @@
-
+# Cluster Beats
+> co
 
 ## Motivation
 Lyrics change. Artists grow. But there's no easy way to track how an artist really evolves throughout their career. Traditional sentiment analysis tools oversimplify themes into "positive", "negative", and "neutral", offering no deeper look into the artist's raw thematic journey. That's why I made Cluster Beats.
