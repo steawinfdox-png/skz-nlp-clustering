@@ -4,8 +4,9 @@
 - Get your Groq API key: https://console.groq.com/keys
 
 ## Motivation
-Lyrics change. Artists grow. But there's no easy way to track how an artist really evolves throughout their career. Traditional sentiment analysis tools oversimplify themes into "positive", "negative", and "neutral", offering no deeper look into the artist's raw thematic journey. That's why I made Cluster Beats.
-Cluster Beats gives us truly meaningful and comprehensive snapshots of a music artist's full discography and groups songs by related themes through unsupervised learning, before finally visualizing these themes and how they change and shift over time. This end-to-end NLP pipeline is my way of combining my love for both programming and music, and helping others do the same. Music isn't simply positive and negative, and our tools to analyze music shouldn't be, either.
+Lyrics change. Artists grow. But there's no easy way to track how an artist really evolves throughout their career. Traditional sentiment analysis tools oversimplify themes into "positive", "negative", and "neutral", offering no deeper look into the artist's raw thematic journey.
+
+Cluster Beats gives us truly meaningful snapshots of an artist's discography, grouping songs by themes through unsupervised learning, before finally visualizing these themes and how they change/shift over time. This end-to-end NLP pipeline is my way of combining my love for both programming and music, and helping others do the same. Music isn't simply positive and negative, and our tools to analyze music shouldn't be, either.
 
 🎤 For demonstration, I've used Cluster Beats to analyze the K-Pop boyband, Stray Kids' entire discography from 2018-2025, to provide interested users a clear example how Cluster Beats works to analyze your favorite artist. (Additional demos are in the notebooks/ file)
 
