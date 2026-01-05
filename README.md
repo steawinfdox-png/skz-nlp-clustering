@@ -8,6 +8,32 @@ Lyrics change. Artists grow. But there's no easy way to track how an artist real
 
 Cluster Beats gives us truly meaningful snapshots of an artist's discography, grouping songs by themes through unsupervised learning, before finally visualizing these themes and how they change/shift over time. This end-to-end NLP pipeline is my way of combining my love for both programming and music, and helping others do the same. Music isn't simply positive and negative, and our tools to analyze music shouldn't be, either.
 
+## How it works (pipeline overview)
+1. 🎼 Scrape Song Metadata & Lyrics
+* Pull complete music artist discography using the Genius API
+* Store song titles, release dates, and full lyrics for analysis
+2. 🧹 Preprocess Lyrics
+* Clean and normalize text (lowercase, remove punctuation, remove stopwords)
+* Filter out metadata brackets
+3. 😊 Sentiment Pre-Analysis (VADER)
+* Generate compound polarity score for each song
+* Classify into positive, neutral, or negative to visualize mood trends as supportive supplemental data
+4. 🔢 Vectorize Lyrics (TF-IDF)
+* Convert lyrics into numeric embeddings using TF-IDF
+* Extract key linguistic features for clustering
+5. 🔀 Unsupervised Clustering (K-Means)
+* Applied K-Means to TF-IDF vectors to identify latent emotional themes
+* Evaluated SSE/Elbow method to select k cluster count
+6. 🏷️ Cluster Labeling with Groq LLM
+* Sent sample lyrics from each cluster to a Groq Llama model
+* Generated concise 3–5 word theme labels
+* Mapped each track to its theme
+7. 📊 Visualization
+* Projected high-dimensional vectors into 2D (t-SNE) for visual mapping
+* Created cluster frequency charts and an emotional timeline across the 7-year discography using Matplotlib, Plotly, and Seaborn
+
+
+
 🎤 For demonstration, I've used Cluster Beats to analyze the K-Pop boyband, Stray Kids' entire discography from 2018-2025, to provide interested users a clear example how Cluster Beats works to analyze your favorite artist. (Additional demos are in the notebooks/ file)
 
 ✨ **Cluster Beats is completely customizable and accessible to all music lovers (programming experience not required!)**
@@ -21,44 +47,6 @@ Cluster Beats gives us truly meaningful snapshots of an artist's discography, gr
 4. Run pipeline in JupyterLab
    a. File --> New --> Terminal
    b. Enter and run "python main.py"
-
-🔬 **Pipeline Overview**
-
-1. 🎼 Scrape Song Metadata & Lyrics
-
-* Pull complete music artist discography using the Genius API
-* Store song titles, release dates, and full lyrics for analysis
-
-2. 🧹 Preprocess Lyrics
-
-* Clean and normalize text (lowercase, remove punctuation, remove stopwords)
-* Filter out metadata brackets
-
-3. 😊 Sentiment Pre-Analysis (VADER)
-
-* Generate compound polarity score for each song
-* Classify into positive, neutral, or negative to visualize mood trends as supportive supplemental data
-
-4. 🔢 Vectorize Lyrics (TF-IDF)
-
-* Convert lyrics into numeric embeddings using TF-IDF
-* Extract key linguistic features for clustering
-
-5. 🔀 Unsupervised Clustering (K-Means)
-
-* Applied K-Means to TF-IDF vectors to identify latent emotional themes
-* Evaluated SSE/Elbow method to select k cluster count
-
-6. 🏷️ Cluster Labeling with Groq LLM
-
-* Sent sample lyrics from each cluster to a Groq Llama model
-* Generated concise 3–5 word theme labels
-* Mapped each track to its theme
-
-7. 📊 Visualization
-
-* Projected high-dimensional vectors into 2D (t-SNE) for visual mapping
-* Created cluster frequency charts and an emotional timeline across the 7-year discography using Matplotlib, Plotly, and Seaborn
 
 🧰 **Tech Stack**
 🧪 Languages + Tools
