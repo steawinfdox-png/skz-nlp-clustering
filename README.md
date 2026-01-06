@@ -12,7 +12,7 @@ Cluster Beats gives us actually meaningful snapshots of an artist's discography,
 Cluster Beats is a customizable end-to-end NLP pipeline that first scrapes song, artist, and discography data from [genius.com](https://genius.com/) using the **Genius API** and **lyricsgenius**. After normalizing our text data, VADER sentiment analysis is initiated to provide a baseline polarity score for each extracted song. Cluster Beats then converts the lyrics into numerical embeddings using TF-IDF vectorization before applying K-Means to those very vectors to identify shared emotional themes and cluster them accordingly. Following this, a [Groq LLama model](https://console.groq.com/keys) is used to generate labels for each cluster, and the resulting trends are displayed in four visualizations. Cluster Beats can me modified to analyze any music artist, with any number songs, across any time period, making it extremely accessible to all music lovers. Programming experience not required :)
 
 ## Demo
-For demonstration, I've used Cluster Beats to analyze the K-Pop boyband, Stray Kids' entire discography from 2018-2025, to provide interested users a clear example how Cluster Beats works to analyze your favorite artist. (Click [here](https://github.com/steawinfdox-png/Cluster-Beats/tree/main/notebooks) for more)
+For demonstration, I've used Cluster Beats to analyze the K-Pop artist, Stray Kids' entire discography from 2018-2025, to provide interested users a clear example how Cluster Beats works to analyze your favorite artist. (Click [here](https://github.com/steawinfdox-png/Cluster-Beats/tree/main/notebooks) for more)
 
 ### Color-coded 2D PCA Cluster Map of TF-IDF Vectors
 
