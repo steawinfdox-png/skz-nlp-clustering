@@ -88,57 +88,6 @@ For demonstration, I've used Cluster Beats to analyze the K-Pop boyband, Stray K
 * Temporal Analysis showing how Stray Kids’ lyrical emotions evolved across their 7-year career.
 * Clear Visualizations including sentiment trends, cluster timelines, and distribution plots.
 
-📊 **Results**
-
-1. 🎶 Emotional Clusters
-
-* The K-Means model (k=5) produced clusters that were semantically consistent when evaluated qualitatively
-* Groq-hosted LLM cluster names closely matched the lyrical tone and vocabulary of each respective cluster:
-
-  * Unstoppable Inner Strength
-  * Self-Empowerment through Adversity
-  * Youthful Energy Explosion
-  * Empowered Rising Spirit
-  * Longing and Heartache
-
-2. 📉 Sentiment Distribution
-
-* VADER sentiment analysis showed dominance of positive polarity scored songs
-* Negative sentiment correlated with songs with lyrics about personal struggle and isolation
-
-3. ⏳ Temporal Analysis
-
-* Throughout Stray Kids' entire 7-year career, songs with cluster names with high-energy ("Empowered Rising Spirit" and "Self Empowerment through Adversity") consistently dominated annual theme rankings
-* Since 2021-2022, however, has "Self Empowerment through Adversity" dropped significantly in frequency, leaving songs in the "Empowered Rising Spirit" cluster to be the No. 1 cluster theme for Stray Kids
-
-4. 📐 Cluster Geometry
-
-* All clusters were relatively distanced from each other in the 2D PCA, suggesting the embeddings creating meaningful variation
-* Such a uniform distribution implies a strong thematic cohesion across Stray Kids' discography even with completely different thematic classifications
-
-🖼️ **Visualizations**
-📎 Attached are several visualizations that help interpret the emotional structure and trends of Stray Kids' 7-year discography
-
-1. 🎨 [Color-coded 2D PCA Cluster Map of TF-IDF Vectors]
-   (visualizes how songs associate together based on lyrical similarity and shows clear separation between emotional themes)
-
-   <img width="1225" height="910" alt="image" src="https://github.com/user-attachments/assets/643de493-c9be-4d03-9fcd-c745167f3372" />
-
-2. 📈 [Emotional Timeline]
-   (line-graph visualization highlighting how emotional cluster themes rise and fall in song frequency over Stray Kids' 7-year career)
-
-   <img width="1131" height="679" alt="Timeline" src="https://github.com/user-attachments/assets/bc318f10-6e62-4542-a824-54e7041873e8" />
-
-3. 📊 [Theme Frequency Chart]
-   (shows actual number-based freqency of all clusters from entire discography)
-
-   <img width="1304" height="630" alt="Screenshot (189)" src="https://github.com/user-attachments/assets/7bc1bb72-526e-4e48-831d-5f9048eaa701" />
-
-4. 🧪 [VADER Sentiment Analysis]
-   (traditional pre-clustering pos-neg-neu classifications)
-
-   <img width="597" height="526" alt="Pie" src="https://github.com/user-attachments/assets/7ad6047a-cb4b-4d07-b9a5-f09cd6096535" />
-
 🧾 **Conclusion**
 📌 This project demonstrates how custom NLP methods (TF-IDF vectorization, clustering, and keyword-based emotion classification) can reveal deeper, more nuanced emotional patterns across Stray Kids’ discography than traditional sentiment tools. While VADER provides a broad positive/negative/neutral sentiment score, it often oversimplifies complex emotional tones, especially in music where themes like empowerment, vulnerability, chaos, longing, and ambition coexist within similar songs and reduces them to simply "positive", "negative", and "neutral" keywords. In contrast, the project’s custom emotion/theme pipeline captures these multilayered dynamics, producing a detailed emotional timeline and cluster map that more accurately reflects the group’s artistic evolution and versatility. Together, these insights highlight how domain-specific NLP can uncover emotional narratives that general-purpose sentiment models fail to detect, making this approach far more effective for analyzing lyrical content than traditional sentiment analysis software.
 
