@@ -43,10 +43,17 @@ For demonstration, I've used Cluster Beats to analyze the K-Pop boyband, Stray K
 🖼️ **Visualizations**
 📎 Attached are several visualizations that help interpret the emotional structure and trends of Stray Kids' 7-year discography
 
-1. 🎨 [Color-coded 2D PCA Cluster Map of TF-IDF Vectors]
+[Color-coded 2D PCA Cluster Map of TF-IDF Vectors]
    (visualizes how songs associate together based on lyrical similarity and shows clear separation between emotional themes)
 
    <img width="1225" height="910" alt="image" src="https://github.com/user-attachments/assets/643de493-c9be-4d03-9fcd-c745167f3372" />
+* The K-Means model (k=5) produced clusters that were semantically consistent when evaluated qualitatively
+* Groq-hosted LLM cluster names closely matched the lyrical tone and vocabulary of each respective cluster:
+  * Unstoppable Inner Strength
+  * Self-Empowerment through Adversity
+  * Youthful Energy Explosion
+  * Empowered Rising Spirit
+  * Longing and Heartache
 
 2. 📈 [Emotional Timeline]
    (line-graph visualization highlighting how emotional cluster themes rise and fall in song frequency over Stray Kids' 7-year career)
