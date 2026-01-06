@@ -70,23 +70,14 @@ For demonstration, I've used Cluster Beats to analyze the K-Pop boyband, Stray K
 📦 **## Requirements**
 
 > pandas
-> 
 > numpy
-> 
 > scikit-learn
-> 
 > matplotlib
-> 
 > seaborn
-> 
 > nltk
-> 
 > python-dotenv
-> 
 > requests
-> 
 > groq
-> 
 
 🌟 **Key Features**
 
