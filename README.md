@@ -61,14 +61,13 @@ For demonstration, I've used Cluster Beats to analyze the K-Pop boyband, Stray K
 ## Using Cluster Beats on your device
 1. Install dependencies
    > pip install -r requirements.txt
-2. Open src/FULL_PIPELINE.py
-3. Change "artist_name" to your preferred music artist, as well as customize other variables (note: you need to get tokens for Genius API and Groq API)
-4. Run pipeline in JupyterLab
+2. Open [src/FULL_PIPELINE.py](https://github.com/steawinfdox-png/Cluster-Beats/blob/main/src/FULL_PIPELINE.py)
+3. Customize variables accordingly (artist name, # of songs, time frame, etc.) on lines 18-23
+5. Run pipeline in JupyterLab
    > File --> New --> Terminal
    > Enter and run "python main.py"
 
 📦 **Requirements**
-
 1. pandas
 2. numpy
 3. scikit-learn
