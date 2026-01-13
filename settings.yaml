@@ -1,0 +1,24 @@
+# General customization settings
+artist_name: "Stray Kids" # CHANGE TO PREFERRED ARTIST!
+max_songs: 360 # Go to genius.com, look up preferred artist, and find how many songs of theirs you wish to analyze!
+cluster_count: 5 # Recommended cluster count
+year_interval: 1 # Change to any timeframe
+use_llm_labels: true
+llm_model: "llama-3.3-70b-versatile"
+
+# Paths
+data_raw_csv: "data/raw/lyrics_raw.csv"
+data_processed_csv: "data/processed/lyrics_processed.csv"
+output_csv: "data/processed/jvke_song_emotions.csv"
+examples_dir: "examples/stray_kids_output"
+
+# TF-IDF
+tfidf_max_features: 2000
+
+# t-SNE
+tsne_perplexity: 5
+tsne_random_state: 42
+
+# Plot sizing
+plot_height: 780
+plot_width: 920
