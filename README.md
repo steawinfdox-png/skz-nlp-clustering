@@ -1,5 +1,5 @@
 <h1 align = "center"> Cluster Beats </h1>
-<h2 align = "center> NLP-powered analysis of public music discographies </h2>
+<h2 align = "center"> NLP-powered analysis of public music discographies </h2>
 - Get your Genius API key: https://docs.genius.com/#/getting-started-h1
 - Get your Groq API key: https://console.groq.com/keys
 
