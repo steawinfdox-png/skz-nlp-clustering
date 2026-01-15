@@ -14,6 +14,7 @@
 </div>
 
 Get your Genius API key: https://docs.genius.com/#/getting-started-h1
+
 Get your Groq API key: https://console.groq.com/keys
 
 ## Motivation
