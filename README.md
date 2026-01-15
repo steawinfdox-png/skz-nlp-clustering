@@ -3,6 +3,7 @@
 # Cluster Beats
 
 **Songs decoded. Artists understood. Pure ML**
+
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]()
 [![License](https://img.shields.io/badge/license-MIT-blue)]()
 [![Version](https://img.shields.io/badge/version-0.1.0-orange)]()
@@ -12,8 +13,8 @@
 
 </div>
 
-#### Get your Genius API key: https://docs.genius.com/#/getting-started-h1
-#### Get your Groq API key: https://console.groq.com/keys
+Get your Genius API key: https://docs.genius.com/#/getting-started-h1
+Get your Groq API key: https://console.groq.com/keys
 
 ## Motivation
 Lyrics change. Artists grow. But there's no easy way to track how an artist really evolves throughout their career. Traditional sentiment analysis tools oversimplify themes into "positive", "negative", and "neutral", offering no deeper look into the artist's raw thematic journey. That's why I made Cluster Beats.
